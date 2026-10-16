@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.window-atlas" path="/org/gnome/shell/extensions/window-atlas/">
+    <key name="show-indicator" type="b"><default>true</default><summary>Show the panel menu</summary></key>
+    <key name="cycle-sizes" type="b"><default>true</default><summary>Cycle halves and corners through half, two thirds, and one third</summary></key>
+    <key name="gap" type="i"><range min="0" max="64"/><default>0</default><summary>Gap in logical pixels</summary></key>
+    <key name="resize-step" type="i"><range min="5" max="200"/><default>30</default><summary>Resize step in logical pixels</summary></key>
+    <key name="history-limit" type="i"><range min="10" max="100"/><default>50</default><summary>History entries per window</summary></key>
+    <key name="remember-positions" type="b"><default>true</default><summary>Remember window positions automatically on move and resize</summary></key>
+    <key name="restore-on-open" type="b"><default>false</default><summary>Restore saved positions when new application windows appear</summary></key>
+    <key name="clear-positions-request" type="u"><default>0</default><summary>Notify the running extension after clearing saved positions</summary></key>
+    <key name="atlas-remember-window" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;s']</default><summary>Remember this window position</summary></key>
+    <key name="atlas-recall-window" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;l']</default><summary>Restore this window's saved position</summary></key>
+    <key name="atlas-remember-all" type="as"><default>[]</default><summary>Remember all open window positions</summary></key>
+    <key name="atlas-recall-all" type="as"><default>[]</default><summary>Restore all open window positions</summary></key>
+    <key name="atlas-maximize" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;f']</default><summary>Maximize</summary></key>
+    <key name="atlas-center" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;c']</default><summary>Center</summary></key>
+    <key name="atlas-restore" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;r']</default><summary>Restore original geometry</summary></key>
+    <key name="atlas-left-half" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;Left']</default><summary>Left half</summary></key>
+    <key name="atlas-right-half" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;Right']</default><summary>Right half</summary></key>
+    <key name="atlas-top-half" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;Up']</default><summary>Top half</summary></key>
+    <key name="atlas-bottom-half" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;Down']</default><summary>Bottom half</summary></key>
+    <key name="atlas-top-left" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;&lt;Shift&gt;Left']</default><summary>Top left</summary></key>
+    <key name="atlas-top-right" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;&lt;Shift&gt;Right']</default><summary>Top right</summary></key>
+    <key name="atlas-bottom-left" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;&lt;Shift&gt;Down']</default><summary>Bottom left</summary></key>
+    <key name="atlas-bottom-right" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;&lt;Shift&gt;Up']</default><summary>Bottom right</summary></key>
+    <key name="atlas-left-third" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;1']</default><summary>Left third</summary></key>
+    <key name="atlas-center-third" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;2']</default><summary>Center third horizontally</summary></key>
+    <key name="atlas-right-third" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;3']</default><summary>Right third</summary></key>
+    <key name="atlas-left-two-thirds" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;4']</default><summary>Left two thirds</summary></key>
+    <key name="atlas-right-two-thirds" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;5']</default><summary>Right two thirds</summary></key>
+    <key name="atlas-top-third" type="as"><default>[]</default><summary>Top third</summary></key>
+    <key name="atlas-middle-third" type="as"><default>[]</default><summary>Center third vertically</summary></key>
+    <key name="atlas-bottom-third" type="as"><default>[]</default><summary>Bottom third</summary></key>
+    <key name="atlas-top-two-thirds" type="as"><default>[]</default><summary>Top two thirds</summary></key>
+    <key name="atlas-bottom-two-thirds" type="as"><default>[]</default><summary>Bottom two thirds</summary></key>
+    <key name="atlas-next-third" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;period']</default><summary>Next horizontal or vertical third</summary></key>
+    <key name="atlas-previous-third" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;comma']</default><summary>Previous horizontal or vertical third</summary></key>
+    <key name="atlas-larger" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;equal']</default><summary>Make larger</summary></key>
+    <key name="atlas-smaller" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;minus']</default><summary>Make smaller</summary></key>
+    <key name="atlas-previous-monitor" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;Page_Up']</default><summary>Previous monitor</summary></key>
+    <key name="atlas-next-monitor" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;Page_Down']</default><summary>Next monitor</summary></key>
+    <key name="atlas-undo" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;z']</default><summary>Undo</summary></key>
+    <key name="atlas-redo" type="as"><default>['&lt;Super&gt;&lt;Control&gt;&lt;Alt&gt;&lt;Shift&gt;z']</default><summary>Redo</summary></key>
+  </schema>
+</schemalist>

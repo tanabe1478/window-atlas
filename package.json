@@ -1,0 +1,18 @@
+{
+  "name": "window-atlas",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Keyboard-driven window placement and persistent position memory for GNOME / Wayland",
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/tanabe1478/window-atlas.git"},
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:coverage": "node --test --experimental-test-coverage tests/*.test.js",
+    "validate": "python3 tools/manage.py validate",
+    "pack": "python3 tools/manage.py pack",
+    "smoke:prefs": "python3 tools/smoke.py prefs",
+    "smoke:shell": "python3 tools/smoke.py shell"
+  },
+  "engines": {"node": ">=20"}
+}

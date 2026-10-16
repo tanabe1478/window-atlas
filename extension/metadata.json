@@ -1,0 +1,9 @@
+{
+  "uuid": "window-atlas@tanabe1478",
+  "name": "Window Atlas",
+  "description": "Arrange windows with keyboard shortcuts and remember their positions, sizes, and monitors across app restarts. GNOME / Wayland. 日本語の設定画面付き。",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.window-atlas",
+  "url": "https://github.com/tanabe1478/window-atlas",
+  "version": 3
+}

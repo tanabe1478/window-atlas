@@ -1,0 +1,9 @@
+dist/
+__pycache__/
+*.pyc
+gschemas.compiled
+node_modules/
+.env
+.env.*
+positions.json
+*.log

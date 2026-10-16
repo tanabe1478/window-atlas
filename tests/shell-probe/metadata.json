@@ -1,0 +1,6 @@
+{
+  "uuid": "window-atlas-smoke@local",
+  "name": "Window Atlas isolated smoke probe",
+  "description": "Test fixture, never install in a normal desktop session",
+  "shell-version": ["50"]
+}
